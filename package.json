@@ -1,0 +1,25 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "Let's dance together and get the higher score by matching the moves with arrows",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/get-joget/client.git"
+  },
+  "keywords": [
+    "dance"
+  ],
+  "author": "tobi, lutfi, eko, fabio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/get-joget/client/issues"
+  },
+  "homepage": "https://github.com/get-joget/client#readme",
+  "dependencies": {
+    "vue": "2.5.13"
+  }
+}
