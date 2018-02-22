@@ -3,11 +3,19 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import axios from 'axios'
+import store from './vuex/index'
+
+Vue.prototype.$axios = axios.create({
+  // baseURL: 'http://'
+})
 
 Vue.config.productionTip = false
+Vue.use(router)
 
 /* eslint-disable no-new */
 new Vue({
+  store,
   el: '#app',
   router,
   components: { App },
